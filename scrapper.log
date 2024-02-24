@@ -1,0 +1,62 @@
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.18.0.21:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:172.18.0.2 - - [21/Feb/2023 23:00:41] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [21/Feb/2023 23:00:41] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.18.0.2 - - [21/Feb/2023 23:00:41] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:root:name 'os' is not defined
+INFO:werkzeug:172.18.0.2 - - [21/Feb/2023 23:00:44] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.18.0.21:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:root:name 'BeautifulSoup' is not defined
+INFO:werkzeug:172.18.0.2 - - [21/Feb/2023 23:01:18] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [21/Feb/2023 23:01:20] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [21/Feb/2023 23:01:20] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.18.0.2 - - [21/Feb/2023 23:01:20] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:root:name 'BeautifulSoup' is not defined
+INFO:werkzeug:172.18.0.2 - - [21/Feb/2023 23:01:23] "POST /review HTTP/1.1" 200 -
+INFO:root:name 'BeautifulSoup' is not defined
+INFO:werkzeug:172.18.0.2 - - [21/Feb/2023 23:01:23] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.18.0.21:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:172.18.0.2 - - [21/Feb/2023 23:01:52] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [21/Feb/2023 23:01:52] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.18.0.2 - - [21/Feb/2023 23:01:52] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.18.0.2 - - [21/Feb/2023 23:01:52] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [21/Feb/2023 23:01:57] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.20.10.9:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:172.20.10.9 - - [22/Feb/2023 11:24:04] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.20.10.9 - - [22/Feb/2023 11:24:04] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:werkzeug:172.20.10.9 - - [22/Feb/2023 11:24:04] "GET /static/css/style.css HTTP/1.1" 200 -
+INFO:werkzeug:172.20.10.9 - - [22/Feb/2023 11:24:04] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:172.20.10.9 - - [22/Feb/2023 11:24:16] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [24/Feb/2024 20:09:23] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Feb/2024 20:09:23] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Feb/2024 20:09:23] "GET /static/css/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Feb/2024 20:09:23] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:root:ac-2blvghl-shard-00-01.ln0bt5m.mongodb.net:27017: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1131) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms),ac-2blvghl-shard-00-00.ln0bt5m.mongodb.net:27017: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1131) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms),ac-2blvghl-shard-00-02.ln0bt5m.mongodb.net:27017: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1131) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 65d9ffb7aa52bacc01f34024, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('ac-2blvghl-shard-00-00.ln0bt5m.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('ac-2blvghl-shard-00-00.ln0bt5m.mongodb.net:27017: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1131) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>, <ServerDescription ('ac-2blvghl-shard-00-01.ln0bt5m.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('ac-2blvghl-shard-00-01.ln0bt5m.mongodb.net:27017: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1131) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>, <ServerDescription ('ac-2blvghl-shard-00-02.ln0bt5m.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('ac-2blvghl-shard-00-02.ln0bt5m.mongodb.net:27017: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1131) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+INFO:werkzeug:127.0.0.1 - - [24/Feb/2024 20:10:21] "POST /review HTTP/1.1" 200 -
+INFO:root:ac-2blvghl-shard-00-01.ln0bt5m.mongodb.net:27017: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1131) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms),ac-2blvghl-shard-00-00.ln0bt5m.mongodb.net:27017: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1131) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms),ac-2blvghl-shard-00-02.ln0bt5m.mongodb.net:27017: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1131) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 65da0037aa52bacc01f34039, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('ac-2blvghl-shard-00-00.ln0bt5m.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('ac-2blvghl-shard-00-00.ln0bt5m.mongodb.net:27017: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1131) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>, <ServerDescription ('ac-2blvghl-shard-00-01.ln0bt5m.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('ac-2blvghl-shard-00-01.ln0bt5m.mongodb.net:27017: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1131) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>, <ServerDescription ('ac-2blvghl-shard-00-02.ln0bt5m.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('ac-2blvghl-shard-00-02.ln0bt5m.mongodb.net:27017: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1131) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+INFO:werkzeug:127.0.0.1 - - [24/Feb/2024 20:12:29] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [24/Feb/2024 20:13:33] "GET /review HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Feb/2024 20:13:33] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Feb/2024 20:13:33] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Feb/2024 20:13:50] "POST /review HTTP/1.1" 200 -
